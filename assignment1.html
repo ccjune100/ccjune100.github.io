@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/1b5ba5a073.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            h1 {
+                text-align: center;
+                font-size: 6rem;
+                padding: 20px;
+                margin: 15px;
+                z-index: 1;
+            }
+
+            nav {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                font-size: 18px;
+                z-index: 1;
+            }
+
+            div {
+                position: relative;
+                width: 100%;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-width: 100%;
+                min-height: 100%;
+            }
+
+            div2 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: darkblue;
+                width: 100%;
+                height: 100vh;
+                z-index: -1;
+            }
+        </style>
+        <title>
+            Jean Prinston
+        </title>
+    </head>
+    <body>
+        <div class="background">
+            <h1 style="color:white;"> Jean Prinston </h1>
+
+            <nav class="topright-options">
+                <ul>
+                    <p href="#" style="color: white;">
+                        <i class="fa-solid fa-user" style="color: #ffff;"></i>
+                        &nbspAbout Me
+                    </p>
+                    <p href="#" style="color: white;">
+                        <i class="fa-solid fa-envelope" style="color: #ffff;"></i>
+                        &nbspResume
+                    </p>
+                    <p href="#" style="color: white;">
+                        <i class="fa-solid fa-star" style="color: #ffff;"></i>
+                        Hobbies
+                    </p>
+                    <p href="#" style="color: white;">
+                        <i class="fa-solid fa-folder" style="color: #ffff;"></i>
+                        &nbspWork
+                    </p>
+                </ul>
+            </nav>
+
+            <div class="video-bg">
+                <div2 class="color-background"></div2>
+                <video autoplay muted loop>
+                    <source src="background.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
